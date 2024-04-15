@@ -1,0 +1,9 @@
+/node_modules/
+test_node_js/test.txt
+test_node_js/test2.txt
+test_node_js/text.txt
+test_node_js/test1.txt
+test_node_js/text2.txt
+test_node_js/count.txt
+test_node_js/.env
+package-lock.json
