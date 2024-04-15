@@ -1,4 +1,4 @@
-/*
+
 const path = require('path');
 console.log(path.join(__dirname, 'first', 'second'));
 
@@ -18,7 +18,7 @@ const fs=require('fs');
 //рекурсивно создавать папки не может по умолчанию
 //fs.mkdirSync(path.resolve(__dirname, 'dir1', 'dir2'), {recursive: true}); //не асинхронный
 console.log('start')
-/* fs.mkdir(path.resolve(__dirname, 'new_dir1'), (err)=>{
+ fs.mkdir(path.resolve(__dirname, 'new_dir1'), (err)=>{
   if(err) {
     console.log(err)
     return;
@@ -105,7 +105,7 @@ writeFileAsync(path.resolve(__dirname, 'test1.txt'),'data')
 .catch(err=>console.log(err))
 
 
-/*
+
 removeFileAsync(path.resolve(__dirname, 'test1.txt'))
   .then(()=> console.log('file was removed'))
 
@@ -127,7 +127,7 @@ removeFileAsync(path.resolve(__dirname, 'test1.txt'))
   //  .then(()=>removeFileAsync(path.resolve(__dirname, 'test2.txt')))
 
 
-*/
+
 
 
   //------------------------
